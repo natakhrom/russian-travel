@@ -1,0 +1,14 @@
+.header__lang_ru {
+    max-width: 30px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    margin-right: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+    .header__lang_ru {
+        font-size: 1.1rem;
+    }
+}

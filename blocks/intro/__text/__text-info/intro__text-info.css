@@ -1,0 +1,11 @@
+.intro__text-info {
+    font-size: 0.8rem;
+    line-height: 1.25;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text-info {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,13 @@
+.comment__author {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .comment__author {
+        order: 2;
+        align-self: center;
+        margin: 0 auto 24px;
+    }
+}

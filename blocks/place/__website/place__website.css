@@ -1,0 +1,26 @@
+@import url(./_url/place__website_url-heading.css);
+@import url(./_url/place__website_url.css);
+
+.place__website {
+    max-width: 484px;
+    min-height: 46px;
+    align-self: end;
+    margin: 0 0 60px;
+}
+
+.place__website:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website  {
+        margin: 0 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .place__website {
+        display: none;
+    }
+}

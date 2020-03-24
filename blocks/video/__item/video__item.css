@@ -1,0 +1,19 @@
+.video__item {
+    position: relative;
+    overflow: hidden;
+}
+
+.video__item:first-of-type {
+    margin-right: 18px;
+}
+
+.video__item:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 375px) {
+    .video__item:first-of-type {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}
