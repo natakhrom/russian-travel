@@ -2,3 +2,10 @@
     width: 177px;
     height: 52px;
 }
+
+@media screen and (max-width: 375px) {
+    .logo_place_header {
+    width: 142px;
+    height: 42px;
+    }
+}

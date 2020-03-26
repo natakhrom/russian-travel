@@ -1,24 +1,20 @@
+@import url(./__item/cover__item.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./_rect/cover_rect.css);
-@import url(./_image/cover_image.css);
 
 .cover {
     max-width: 90%;
     height: 594px;
-    margin: 0 auto;
+    margin: 102px auto 0;
+    background-image: url(../../images/depo.png);
+    background-size: cover;
     position: relative;
-    overflow: hidden;
-}
-
-.cover:hover {
-    cursor: pointer;
-    opacity: 0.5;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 1024px;        
+        max-width: 1024px;  
+        height: 562px;      
     }
 }
 
@@ -33,5 +29,14 @@
     .cover {
         max-width: 375px;
         height: 272px;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        height: 216px;
+        margin-top: 64px;
     }
 }

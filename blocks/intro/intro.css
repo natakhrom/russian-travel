@@ -2,6 +2,7 @@
 @import url(./__content-row/intro__content-row.css);
 @import url(./__text/intro__text.css);
 @import url(./__text/__text-info/intro__text-info.css);
+@import url(./__text/__text-info/_accent/intro__text-info_accent.css);
 
 .intro {
     max-width: 683px;
@@ -10,9 +11,18 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
+        max-width: 692px;
         margin-left: 48px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin-left: 24px;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
     .intro {

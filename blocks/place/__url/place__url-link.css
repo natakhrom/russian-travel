@@ -1,7 +1,11 @@
-.place__website_url {
+.place__url-link {
     font-size: 1.12rem;
     font-weight: normal;
     line-height: 1.87rem;
-    text-decoration-line: underline;
     color: white;
+}
+
+.place__url-link:hover {
+    opacity: .7;
+    transition: 2s ease-out;
 }

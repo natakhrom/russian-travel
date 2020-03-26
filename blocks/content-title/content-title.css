@@ -1,5 +1,6 @@
 .content-title {
-    max-width: 800px;
+    max-width: 740px;
+    height: 147px;
     font-size: 4.5rem;
     font-weight: bold;
     line-height: 4.8rem;
@@ -10,6 +11,7 @@
 @media screen and (max-width: 768px) {
     .content-title {
         max-width: 550px;
+        height: 104px;
         font-size: 2.6rem;
         line-height: 2.8rem;
     }

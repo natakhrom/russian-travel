@@ -1,11 +1,18 @@
 .video__duration {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: normal;
     line-height: 0.8rem;
     letter-spacing: 0.3em;
     margin: 94px 509px 0 30px;
     color: white;
-    
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+       margin: 36px 0 0 24px;
+    }
 }
 
 @media screen and (max-width: 375px) {

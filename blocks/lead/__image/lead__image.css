@@ -1,13 +1,7 @@
-@import url(./_road/lead__image_road.css);
-@import url(./_train/lead__image_train.css);
-
 .lead__image {
-    max-width: 984px;
-    height: 554px;
-    margin: 78px auto 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,6 +13,5 @@
 @media screen and (max-width: 375px) {
     .lead__image {
         height: 211px;
-        margin-top: 32px;
     }
 }

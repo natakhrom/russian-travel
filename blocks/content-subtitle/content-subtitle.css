@@ -7,6 +7,12 @@
     margin: 48px auto 72px;
 }
 
+@media screen and (max-width: 768px) {
+    .content-subtitle {
+       margin: 24px auto 56px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .content-subtitle {
        font-size: 1rem;

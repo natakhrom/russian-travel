@@ -1,7 +1,7 @@
 .intro__text-info {
-    font-size: 0.8rem;
-    line-height: 1.25;
-    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 320px) {

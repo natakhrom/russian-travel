@@ -1,0 +1,23 @@
+.cover__item {
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.cover__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+}
+
+.cover__item:hover::before{
+    opacity: .7;
+    transition: 2s ease-out;
+  }
