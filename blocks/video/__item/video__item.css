@@ -1,8 +1,9 @@
 .video__item {
     position: relative;
     text-decoration: none;
-    width: 583px;
+    width: 50%;
     height: 323px;
+    overflow: hidden;
 }
 
 .video__item:first-of-type {
@@ -27,7 +28,6 @@
 
 @media screen and (max-width: 1024px) {
     .video__item{
-        width: 456px;
         height: 288px;
     }
     .video__item:first-of-type {
@@ -37,7 +37,6 @@
 
 @media screen and (max-width: 768px) {
     .video__item {
-        width: 352px;
         height: 200px;
     }
 }
@@ -45,7 +44,7 @@
 @media screen and (max-width: 375px) {
     .video__item {
         height: 200px;   
-        width: 343px;
+        width: 100%;
     }
     .video__item:first-of-type {
         margin-right: 0;
@@ -56,6 +55,5 @@
 @media screen and (max-width: 320px) {
     .video__item {
         height: 192px; 
-        width: 288px;
     }
 }
