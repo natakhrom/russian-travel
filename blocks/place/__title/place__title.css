@@ -1,20 +1,15 @@
 .place__title {
-    max-width: 457px;
+    margin: 0;
     font-size: 4.5rem;
     font-weight: bold;
     line-height: 4rem;
-    margin-top: 0;
-    margin-bottom: 60px;
     align-self: end;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        max-width: 340px;
         font-size: 2.6rem;
         line-height: 2.8rem;
-        margin-bottom: 40px;
-        align-self: end;
     }
 }
 

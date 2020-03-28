@@ -1,20 +1,17 @@
 .video__container {
-    max-width: 1184px;
-    height: 323px;
     margin: 0 auto;
     display: flex;
-}
-
-@media screen and (max-width: 768px) {
-    .video__container {
-        height: 200px;
-    }
 }
 
 @media screen and (max-width: 375px) {
     .video__container {
         flex-direction: column;
-        max-width: 343px;
         height: 408px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__container {
+        height: 392px;
     }
 }

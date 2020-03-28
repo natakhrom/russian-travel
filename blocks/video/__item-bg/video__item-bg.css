@@ -1,22 +1,10 @@
 .video__item-bg {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-    width: 583px;
-    height: 323px;
     z-index: -1;
-}
-
-@media screen and (max-width: 768px) {
-    .video__item-bg {
-        width: 352px;
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .video__item-bg {
-        width: 343px;
-        height: 200px;
-    }
+    border-radius: 5px;
 }

@@ -16,19 +16,18 @@
 
 @media screen and (max-width: 768px) {
     .lead {
-        max-width: 768px;
+        width: 100vw;
     }
 }
 
 @media screen and (max-width: 375px) {
     .lead {
-        max-width: 375px;
-        height: 412px;
+        width: 100vw;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
-        max-width: 320px;
+        width: 100vw;
     }
 }

@@ -1,13 +1,12 @@
 .comments__container {
-    max-width: 1184px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    min-height: 283px;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
     .comments__container {
         max-width: 382px;
-        display: flex;
+        min-height: 806px;
         flex-wrap: wrap;
         margin: auto;
     }

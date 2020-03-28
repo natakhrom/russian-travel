@@ -9,6 +9,12 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 1024px) {
+    .video__duration {
+       margin-top: 54px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .video__duration {
        margin: 36px 0 0 24px;
@@ -17,6 +23,12 @@
 
 @media screen and (max-width: 375px) {
     .video__duration {
-       margin: 30px 0 0 24px;
+       margin: 41px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__duration {
+       margin: 49px 0 0 16px;
     }
 }

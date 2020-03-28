@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .video__duration_position {
+        margin-top: 17px;
+}
+}
+
+@media screen and (max-width: 375px) {
+        .video__duration_position {
+            margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__duration_position {
+        margin-top: 23px;
+}
+}

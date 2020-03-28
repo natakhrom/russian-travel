@@ -3,6 +3,34 @@
 @import url(./__container/comments__container.css);
 
 .comments {
-    width: 90%;
+    max-width: 1184px;
+    min-height: 618px;
     margin: 102px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments {
+        max-width: 660px;
+        min-height: 1063px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments {
+        max-width: 343px;
+        min-height: 1089px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .comments {
+        max-width: 288px;
+        min-height: 1136px;
+    }
 }
