@@ -2,8 +2,13 @@
     font-size: 0.8rem;
     font-weight: normal;
     line-height: 1.5rem;
-    margin-top: 42px;
-    margin-bottom: 24px;
+    margin: 42px 0 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .comment__quote {
+        margin-bottom: 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
