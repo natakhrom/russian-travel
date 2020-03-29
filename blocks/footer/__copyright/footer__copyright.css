@@ -5,9 +5,8 @@
     margin: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 753px) {
     .footer__copyright {
         margin-top: 48px;
-        margin-bottom: 24px;
     }
 }

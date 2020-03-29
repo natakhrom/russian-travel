@@ -9,14 +9,20 @@
 
 @media screen and (max-width: 768px) {
     .content-subtitle {
-       margin: 24px auto 56px;
+       margin-top: 24px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 458px) {
     .content-subtitle {
        font-size: 1rem;
        line-height: 1.4rem;
-       margin: 16px auto 24px;
+       margin: 16px auto 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-subtitle {
+       margin-bottom: 40px;
     }
 }

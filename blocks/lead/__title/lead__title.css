@@ -8,7 +8,20 @@
     padding: 48px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 750px) {
+    .lead__title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .lead__title {
+        font-size: 4.5rem;
+        line-height: 4.2rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
     .lead__title {
         font-size: 2.5rem;
         line-height: 2.7rem;

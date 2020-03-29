@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 580px) {
     .place {
         display: flex;
         flex-direction: column;

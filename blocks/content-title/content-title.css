@@ -7,16 +7,15 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .content-title {
-        max-width: 550px;
-        height: 104px;
         font-size: 2.6rem;
         line-height: 2.8rem;
+        max-width: 600px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 458px) {
     .content-title {
         font-size: 2rem;
         line-height: 2.1rem;

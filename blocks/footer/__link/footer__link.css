@@ -1,8 +1,8 @@
 .footer__link {
     font-size: 1.5rem;
     font-weight: normal;
-    line-height: 2.56rem;
-    margin: 0 18px 0 0;
+    line-height: 2.5rem;
+    margin-right: 18px;
     text-decoration: none;
     color: white;
 }
@@ -13,18 +13,23 @@
     transition: 2s ease-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 948px) {
     .footer__link {
-        font-size: 1rem;
-        line-height: 1.6rem;
-        
+        font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 832px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+}
+
+
+@media screen and (max-width: 753px) {
     .footer__link {
         font-size: 1.5rem;
         line-height: 2.5rem;
-        margin-bottom: 32px;
     }
 }
